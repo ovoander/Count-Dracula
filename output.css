@@ -569,6 +569,18 @@ video {
   margin-right: auto;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -580,6 +592,23 @@ video {
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.h-min {
+  height: -moz-min-content;
+  height: min-content;
+}
+
+.min-h-\[\] {
+  min-height: ;
+}
+
+.min-h-\[2\] {
+  min-height: 2;
+}
+
+.min-h-\[2rem\] {
+  min-height: 2rem;
 }
 
 .w-4\/5 {
@@ -595,10 +624,43 @@ video {
   width: fit-content;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.min-w-\[2rem\] {
+  min-width: 2rem;
+}
+
+.min-w-fit {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+
+.min-w-\[\] {
+  min-width: ;
+}
+
 .select-none {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -632,6 +694,16 @@ video {
   background-color: rgb(13 191 229 / var(--tw-bg-opacity));
 }
 
+.bg-nosferatu-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(83 89 124 / var(--tw-bg-opacity));
+}
+
+.bg-dracula-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(105 22 224 / var(--tw-bg-opacity));
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -644,6 +716,14 @@ video {
   padding: 1.5rem;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -651,6 +731,14 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-aro-100 {
@@ -674,7 +762,17 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.shadow-dracula-900 {
+  --tw-shadow-color: #491298;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .active\:bg-vanHelsing-800:active {
   --tw-bg-opacity: 1;
   background-color: rgb(12 160 191 / var(--tw-bg-opacity));
+}
+
+.active\:bg-dracula-800:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(89 20 187 / var(--tw-bg-opacity));
 }
