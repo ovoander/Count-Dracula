@@ -636,6 +636,23 @@ video {
   width: 6rem;
 }
 
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
 .min-w-\[2rem\] {
   min-width: 2rem;
 }
