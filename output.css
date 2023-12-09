@@ -548,6 +548,10 @@ video {
   top: 0.75rem;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -573,6 +577,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-auto {
+  margin-bottom: auto;
+}
+
 .flex {
   display: flex;
 }
@@ -584,6 +592,126 @@ video {
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[0\] {
+  height: 0;
+}
+
+.h-\[00\] {
+  height: 00;
+}
+
+.h-\[ca\] {
+  height: ca;
+}
+
+.h-\[cac\] {
+  height: cac;
+}
+
+.h-\[cal\] {
+  height: cal;
+}
+
+.h-\[calc\] {
+  height: calc;
+}
+
+.h-\[calc\(\)\] {
+  height: calc();
+}
+
+.h-\[calc\(10\)\] {
+  height: calc(10);
+}
+
+.h-\[calc\(100\)\] {
+  height: calc(100);
+}
+
+.h-\[calc\(100v\)\] {
+  height: calc(100v);
+}
+
+.h-\[calc\(100vw\)\] {
+  height: calc(100vw);
+}
+
+.h-\[calc\(100vwh\)\] {
+  height: calc(100vwh);
+}
+
+.h-\[calc\(100vwh-\)\] {
+  height: calc(100vwh - );
+}
+
+.h-\[calc\(100vwh-6\)\] {
+  height: calc(100vwh - 6);
+}
+
+.h-\[calc\(100vwh-64\)\] {
+  height: calc(100vwh - 64);
+}
+
+.h-\[calc\(100vwh-64p\)\] {
+  height: calc(100vwh - 64p);
+}
+
+.h-\[calc\(100vwh-64px\)\] {
+  height: calc(100vwh - 64px);
+}
+
+.h-\[calc\(100vh-64px\)\] {
+  height: calc(100vh - 64px);
+}
+
+.h-\[calc\(100vh-4\)\] {
+  height: calc(100vh - 4);
+}
+
+.h-\[calc\(100vh-4rem\)\] {
+  height: calc(100vh - 4rem);
+}
+
+.h-\[calc\(100vh-4re\)\] {
+  height: calc(100vh - 4re);
+}
+
+.h-\[calc\(100vh-4r\)\] {
+  height: calc(100vh - 4r);
+}
+
+.h-\[calc\(100vh-\)\] {
+  height: calc(100vh - );
+}
+
+.h-\[calc\(100vh-8\)\] {
+  height: calc(100vh - 8);
+}
+
+.h-\[calc\(100vh-8rem\)\] {
+  height: calc(100vh - 8rem);
+}
+
+.h-\[calc\(100vh-12\)\] {
+  height: calc(100vh - 12);
+}
+
+.h-\[calc\(100vh-12rem\)\] {
+  height: calc(100vh - 12rem);
 }
 
 .w-24 {
@@ -603,12 +731,8 @@ video {
   width: fit-content;
 }
 
-.w-2 {
-  width: 0.5rem;
-}
-
-.w-5 {
-  width: 1.25rem;
+.w-full {
+  width: 100%;
 }
 
 .select-none {
@@ -631,6 +755,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
 }
 
 .rounded {
